@@ -330,3 +330,63 @@ a {
     display: none;
   }
 }
+
+.competences__synthese {
+  text-decoration: none;
+  display: flex;
+  justify-self: center;
+  margin-top: 30px;
+}      
+.competences__synthese-button {
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.competences__synthese-button:hover {
+  transform: translateY(1px)
+}
+
+.certifications__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.certifications__card {
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+.certifications__card:hover {
+  background-color: #f9f9f9;
+}
+
+.certifications__card-img {
+  display: flex;
+  justify-self: center;
+  width: 70px;
+}
+
+.certifications__card-title {
+  text-align: center;
+}
+
+.certifications__card-link {
+  display: flex;
+  justify-self: center;
+}
+
+@media (max-width: 600px) {
+
+.certifications__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+}
