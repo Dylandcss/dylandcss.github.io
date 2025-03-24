@@ -82,7 +82,7 @@ body {
 }
 
 .competences__list li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   gap: 30px;
@@ -359,6 +359,10 @@ a {
   background-color: #f4f4f4;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
 
 .certifications__card:hover {
@@ -366,9 +370,7 @@ a {
 }
 
 .certifications__card-img {
-  display: flex;
-  justify-self: center;
-  width: 70px;
+  width: 15%;
 }
 
 .certifications__card-title {
@@ -376,8 +378,24 @@ a {
 }
 
 .certifications__card-link {
+  color: #333;
+}
+
+.tech__list {
   display: flex;
-  justify-self: center;
+  margin-left: 10px;
+  list-style: none;
+  gap: 10px;
+}
+
+.tech__el {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  border: 1px solid #e0e0e0;
 }
 
 @media (max-width: 600px) {

@@ -25,7 +25,7 @@
           <li><a href="./pages/projets.html">Projets</a></li>
           <li><a href="./pages/veille.html">Veille</a></li>
           <li>
-            <a class="nav__cv" href="./public/assets/cv.pdf"> CV </a>
+            <a class="nav__cv" target="_blank" href="./public/assets/cv.pdf">CV</a>
           </li>
         </ul>
       </nav>
@@ -55,18 +55,6 @@
             <h2>Front-end</h2>
             <ul class="competences__list">
               <li>
-                <img src="./public/assets/images/html5.png" alt="" width="50" />
-                <span>HTML</span>
-              </li>
-              <li>
-                <img
-                  src="./public/assets/images/css-icon.svg"
-                  alt=""
-                  width="50"
-                />
-                <span>CSS</span>
-              </li>
-              <li>
                 <img
                   src="./public/assets/images/Javascript.png"
                   alt=""
@@ -83,16 +71,8 @@
                 <span>TypeScript</span>
               </li>
               <li>
-                <img
-                  src="./public/assets/images/tailwind.svg"
-                  alt=""
-                  width="50"
-                />
-                <span>Tailwind</span>
-              </li>
-              <li>
                 <img src="./public/assets/images/sass.png" alt="" width="50" />
-                <span>Sass/Scss</span>
+                <span>Sass</span>
               </li>
               <li>
                 <img src="./public/assets/images/react.svg" alt="" width="50" />
@@ -120,24 +100,10 @@
               </li>
               <li>
                 <img
-                  src="./public/assets/images/github.png"
-                  alt=""
-                  width="50"
-                /><span>GitHub</span>
-              </li>
-              <li>
-                <img
                   src="./public/assets/images/Postman.svg"
                   alt=""
                   width="50"
                 /><span>Postman</span>
-              </li>
-              <li>
-                <img
-                  src="./public/assets/images/burpsuite.png"
-                  alt=""
-                  width="50"
-                /><span>Burp Suite</span>
               </li>
               <li>
                 <img
@@ -152,20 +118,6 @@
                         alt=""
                         width="50"
                 /><span>VSCode</span>
-              </li>
-              <li>
-                <img
-                        src="./public/assets/images/idea.png"
-                        alt=""
-                        width="50"
-                /><span>IDEA</span>
-              </li>
-              <li>
-                <img
-                        src="./public/assets/images/webstorm.png"
-                        alt=""
-                        width="50"
-                /><span>WebStorm</span>
               </li>
             </ul>
           </div>
@@ -203,7 +155,7 @@
             </ul>
           </div>
         </div>
-        <a class="competences__synthese" href="./public/assets/Tableau de synthèse - DECAMPS Dylan.pdf"><button class="competences__synthese-button">Voir le tableau de synthèse BTS SIO</button></a>
+        <a class="competences__synthese" target="_blank" href="./public/assets/Tableau de synthèse - DECAMPS Dylan.pdf"><button class="competences__synthese-button">Voir le tableau de synthèse BTS SIO</button></a>
       </section>
       <section class="certifications">
         <h2>Certifications</h2>
@@ -211,18 +163,22 @@
           <div class="certifications__card">
             <img class="certifications__card-img" src="./public/assets/images/microsoft_logo.jpg" alt="Se préparer au métier de développeur par Microsoft et LinkedIn">
             <p class="certifications__card-title">Se préparer au métier de développeur/ développeuse par Microsoft et LinkedIn</p>
-            <a class="certifications__card-link" href="https://www.linkedin.com/learning/certificates/b6c165f4cd77ad0058b89d7e31dc956fd20494d6e10b60a354e4ab45577fec9c">Lien vers la certification</a>
+            <a class="certifications__card-link" target="_blank" href="https://www.linkedin.com/learning/certificates/b6c165f4cd77ad0058b89d7e31dc956fd20494d6e10b60a354e4ab45577fec9c">Lien vers la certification</a>
           </div>
-        <div class="certifications__grid">
+          <div class="certifications__card">
+            <img class="certifications__card-img" src="./public/assets/images/cisco.svg" alt="certification Cisco - Introduction à la Cybersécurité">
+            <p class="certifications__card-title">Certification Cisco - Introduction à la Cybersécurité</p>
+            <a class="certifications__card-link" target="_blank" href="https://www.credly.com/badges/0f726f4b-d717-49ab-a9cf-9fe4539fb4f5/public_url">Lien vers la certification</a>
+          </div>
           <div class="certifications__card">
             <img class="certifications__card-img" src="./public/assets/images/sass.png" alt="certification Udemy cours complet SCSS">
             <p class="certifications__card-title">Certication Udemy - Cours complet Sass</p>
-            <a class="certifications__card-link" href="./public/assets/certification-udemy-copie.pdf">Lien vers la certification</a>
+            <a class="certifications__card-link" target="_blank" href="./public/assets/certification-udemy-copie.pdf">Lien vers la certification</a>
           </div>
           <div class="certifications__card">
             <img class="certifications__card-img" src="./public/assets/images/ANSSI_Logo.svg" alt="certification Udemy cours complet SCSS">
             <p class="certifications__card-title">MOOC de l'ANSSI - Attestation de suivi</p>
-            <a class="certifications__card-link" href="./public/assets/certification-anssi-copie.pdf">Lien vers la certification</a>
+            <a class="certifications__card-link" target="_blank" href="./public/assets/certification-anssi-copie.pdf">Lien vers la certification</a>
           </div>
         </div>
       </section>
@@ -238,6 +194,11 @@
                   width="300"
                 />
                 <h3>Portfolio</h3>
+                <div class="tech__list">
+                  <span class="tech__el">HTML</span>
+                  <span class="tech__el">CSS</span>
+                  <span class="tech__el">JavaScript</span>
+                </div>
                 <p>
                   Ce projet est mon portfolio personnel. Il est réalisé en HTML,
                   CSS et JavaScript. Il est hébergé sur GitHub Pages. Il est
@@ -255,6 +216,10 @@
                   width="180"
                 />
                 <h3>À table</h3>
+                <div class="tech__list">
+                  <span class="tech__el">Flutter</span>
+                  <span class="tech__el">PHP</span>
+                </div>
                 <p>
                   Ce projet est une application mobile de gestion de recettes de
                   cuisine. Elle permet de trouver des recettes à partir des
